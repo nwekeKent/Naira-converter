@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+.wrapper{
+    margin:30px auto;
+    max-width: 300px;
+    
+}
+.wrapper #title{
+    width: 100%;
+    text-align: center;
+}
+.wrapper #title h1{
+    color: white;
+    font-weight:lighter;
+    font-size: 30px;
+
+}
+.wrapper .nairainput{
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius:3px;
+    padding:10px;
+
+}
+#output{
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(50px,auto);
+    grid-gap:10px;
+}
+#output .card{
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 3px;
+    color: black;
+    font-weight: lighter;
+    
+
+}
+.card1{
+    background-color: lightgreen;
+}
+.card2{
+    background-color: turquoise;
+}
+.card3{
+    background-color:red;
+}
